@@ -6,7 +6,7 @@ _Autor: Antonio Ramírez Martín_
 
 En el archivo TF\_cesar.rar se encuentra todo lo necesario para ejecutar el programa. Una vez descomprimido nos quedaría lo siguiente: 
 
-![](/image/files.png)
+![](/images/files.png)
 
 - Carpeta modulos. Contiene los archivos decodificador.py y diccionario.py. 
 
@@ -27,7 +27,7 @@ Para la puesta en marcha del programa ejecutaremos el fichero “cesar.py”. Un
 - Búsqueda de la clave Cesar correcta comparando las claves generadas de fichero\_plano.txt con las palabras de Diccionario\_personalizado.txt y posterior adicción a fichero\_plano.txt de la clave con más coincidencias. 
 - Impresión en pantalla de todas las claves creadas y la identificación de la clave que creemos correcta. 
 
-![](/images/keys.png)
+![](/images/keys.jpeg)
 
 Captura de pantalla del resultado final 
 
@@ -39,7 +39,7 @@ ALICIA EMPEZABA YA A CANSARSE DE ESTAR SENTADA CON SU HERMANA A LA ORILLA DEL RI
 
 Para la implementación de las ruedas de cifrado he usado la pista que se nos da para hacer el trabajo final (carácter\_cifrado = (carácter\_en\_claro + clave) % 26) como puede apreciarse en la línea 25 de la siguiente imagen: 
 
-![](/images/26.jpg)
+![](/images/26.jpeg)
 
 La corrección +13 la hago para que a la hora de calcular el módulo de 65 este sea 0 y hacer que coincida con la letra A. 
 
